@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <!-- Alt tags included for accessibility -->
+            <img src="profile-placeholder.jpg" alt="Portrait of the developer smiling at the camera" class="profile-img">
+            <p>Hello! I am a web developer passionate about building accessible, responsive, and interactive websites. I specialize in front-end technologies like HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <!-- Alt tags included for accessibility -->
+                    <img src="project1-placeholder.jpg" alt="Screenshot of a weather application dashboard showing temperature and forecast" class="project-img">
+                    <h3>Weather App</h3>
+                    <p>A responsive weather dashboard built using HTML, CSS, JavaScript, and a public API to fetch real-time data.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2-placeholder.jpg" alt="Screenshot of an e-commerce storefront displaying product listings" class="project-img">
+                    <h3>E-Commerce Store</h3>
+                    <p>A mock online storefront featuring dynamic product filtering and a working shopping cart.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Want to work together or learn more about my experience? Click the button below.</p>
+            <button id="hello-btn">Say Hello!</button>
+            <p id="greeting-message" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
