@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="11820201.png" />
+    <Content Include="images.jpg" />
+    <Content Include="images2.jpg" />
     <Content Include="index.html" />
     <Content Include="script.js" />
     <Content Include="style.css" />
